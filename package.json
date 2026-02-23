@@ -1,0 +1,10 @@
+{
+  "name": "expense-product",
+  "version": "1.0.0",
+  "scripts": {
+    "docker:up": "docker-compose up --build",
+    "docker:down": "docker-compose down",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {}
+}
